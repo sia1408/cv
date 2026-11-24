@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Siya Singh</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+/* VOICE minimal, black and white, serif
+   IDEA a typeset printed resume
+   PICTURE none; the type is the page
+   COLOUR off-white ground, black ink, grey for dates; same in dark mode
+   TYPE Source Serif 4
+   LAYOUT one narrow column; dates right-aligned, wrapping under on phones */
+:root,:root[data-theme=light],:root[data-theme=dark]{color-scheme:light;--bg:#f7f5f0;--ink:#000;--mute:#555;--rule:#000}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Source Serif 4",Georgia,"Times New Roman",serif;overflow-x:clip}
+a{color:inherit;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{text-decoration-thickness:2px}
+a:focus-visible{outline:1px solid var(--ink);outline-offset:3px}
+.page{max-width:760px;margin:0 auto;padding:clamp(40px,8vw,96px) max(5vw,20px) clamp(48px,8vw,96px)}
+h1{font-weight:400;font-size:clamp(40px,7vw,56px);line-height:1.05;letter-spacing:-.02em;margin:0 0 10px}
+.contact{margin:0;color:var(--mute);font-size:16px;display:flex;flex-wrap:wrap;gap:2px 22px}
+.lede{margin:24px 0 0;max-width:62ch}
+section{margin-top:44px}
+h2{font-size:17px;font-weight:600;margin:0 0 14px;padding-bottom:6px;border-bottom:1px solid var(--rule)}
+.item{margin-bottom:18px}
+.item:last-child{margin-bottom:0}
+.ih{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:0 20px}
+.r{font-weight:600}
+.d{color:var(--mute);font-size:16px;white-space:nowrap;font-variant-numeric:tabular-nums}
+ul{margin:4px 0 0;padding-left:1.1em}
+li{margin:3px 0}
+li::marker{color:var(--mute)}
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <h1>Siya Singh</h1>
+    <p class="contact"><span>Durham, NC</span><a href="mailto:siya.singh@duke.edu">siya.singh@duke.edu</a><a href="https://github.com/sia1408">github.com/sia1408</a></p>
+    <p class="lede">Computer science student at Duke working on AI alignment; research and fieldbuilding. Co-founder of Duke Effective Altruism, now founding Duke AI Safety.</p>
+  </header>
+
+  <section>
+    <h2>Education</h2>
+    <div class="item"><div class="ih"><span><span class="r">Duke University</span>, Intended Major: Computer Science</span><span class="d">Aug 2026 – May 2030</span></div></div>
+    <div class="item"><div class="ih"><span><span class="r">The Shriram Millennium School, Noida</span>, IB Diploma: 42/45</span><span class="d">Aug 2022 – Jul 2026</span></div></div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="item">
+      <div class="ih"><span><span class="r">Co-founder &amp; Organizer</span>, Duke Effective Altruism</span><span class="d">2026 – Present</span></div>
+      <ul><li>Grew the club from 0 to 85 members in 2 months and run weekly events.</li><li>Launched a year-long prediction market tournament.</li></ul>
+    </div>
+    <div class="item">
+      <div class="ih"><span><span class="r">Research Intern</span>, Seraphion Technology, Netherlands</span><span class="d">Jul 2025 – Oct 2025</span></div>
+      <ul><li>Researched alignment faking in small LLMs (&lt;8B parameters), challenging prior Anthropic and Redwood Research findings that the behavior does not emerge at this scale.</li><li>Tested deontological-ethics prompting as a mitigation strategy.</li></ul>
+    </div>
+    <div class="item">
+      <div class="ih"><span><span class="r">Studio Member</span>, Apart Research</span><span class="d">Apr 2025 – Jun 2025</span></div>
+      <ul><li>Built SafeRLHub, an interactive resource on RL failure modes like reward hacking and goal misgeneralization (<a href="https://rl-and-misalignment.streamlit.app/">demo</a>, <a href="https://www.lesswrong.com/posts/P5ig59wyeA2et58EF/saferlhub-an-interactive-resource-for-rl-safety-and">LessWrong post</a>).</li><li>Built an RL-safety violation incident tracker (<a href="https://github.com/sia1408/rl-snark">github.com/sia1408/rl-snark</a>).</li></ul>
+    </div>
+    <div class="item">
+      <div class="ih"><span><span class="r">Alignment Research Fellow</span>, AI Safety Global Society</span><span class="d">Mar 2025 – Jul 2025</span></div>
+      <ul><li>Inaugural cohort of the ARENA-based <a href="https://www.aisafety.group/arf">Alignment Research Fellowship</a>, run with ENAIS and AI Safety Hungary.</li></ul>
+    </div>
+    <div class="item">
+      <div class="ih"><span><span class="r">AI Safety Fundamentals (12-week course)</span>, BlueDot Impact</span><span class="d">Oct 2024 – Jan 2025</span></div>
+      <ul><li>12-week facilitated cohort course on technical AI alignment (<a href="https://course.bluedot.org/certification?id=recTLERHqzSPrpDm3">certificate</a>).</li></ul>
+    </div>
+    <div class="item">
+      <div class="ih"><span><span class="r">AI Governance Fast Track</span>, BlueDot Impact</span></div>
+      <ul><li>Intensive course on AI governance and policy (<a href="https://course.bluedot.org/certification?id=rec4Cy6AI6zQa6wa9">certificate</a>).</li></ul>
+    </div>
+    <div class="item">
+      <div class="ih"><span><span class="r">Research Intern</span>, Indian Institute of Technology (IIT) Delhi</span><span class="d">Aug 2022 – Feb 2024</span></div>
+      <ul><li>Built focus-stacking and 3D reconstruction software on a Jetson Orin Nano for a low-cost school microscope.</li><li>Trained a CNN to identify mosquito species from tissue images; deployed in Indian public schools.</li></ul>
+    </div>
+    <div class="item">
+      <div class="ih"><span><span class="r">Research Intern</span>, Indian Institute of Foreign Trade (IIFT) Delhi</span><span class="d">Aug 2022 – May 2023</span></div>
+      <ul><li>Published a peer-reviewed paper on India’s coffee export dynamics (<i>Pragyaan</i>) and a <i>Policy Circle</i> article on defence procurement.</li></ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="item">
+      <div class="ih"><span><span class="r">DARC</span>, Founder: Deepfake Analysis and Reliability Classifier</span><a class="d" href="https://github.com/sia1408/DARC">GitHub</a></div>
+      <ul><li>Deepfake detector (96% accuracy, trained on 90k+ images) adopted by the Press Trust of India, Delhi Police Cyber Crime Unit and TV Today Network; used to train Govt. of India vigilance officers.</li><li>2nd place, LSE Shark Tank; 1st place, Shriteq Misinformation Hackathon.</li></ul>
+    </div>
+    <div class="item">
+      <div class="ih"><span class="r">AquaPurifier &amp; Atmospheric Water Harvester</span><a class="d" href="https://www.canva.com/design/DAGmH1JgLKU/tI1DeEHNIlpxw88-7NypdQ/view?utm_content=DAGmH1JgLKU&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=uniquelinks&amp;utlId=hc92f624767">Presentation</a></div>
+      <ul><li>Xylem/biochar purifier removing heavy metals and 99.9% of pathogens; Stockholm Junior Water Prize finalist.</li><li>Co-inventor, solar-powered atmospheric water harvester (Indian patent AN 202511001215).</li></ul>
+    </div>
+    <div class="item">
+      <div class="ih"><span class="r">Maxiclip</span><a class="d" href="https://maxiclip-solutions.vercel.app/">Demo</a></div>
+      <ul><li>An interactive paperclip-maximizer demo.</li></ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Hackathons &amp; Awards</h2>
+    <ul>
+      <li><span class="r">2nd place</span>, Women in AI Safety Hackathon (Apart Research × BlueDot, 350 participants) for <a href="https://docs.google.com/document/d/11FdMFNx3S-SZmBTFzepqLfQiNN3mpZl5FicQ7Q_c1Uc/edit?usp=sharing">SafeRLHub</a>.</li>
+      <li><span class="r">AI Plans Evals Hackathon</span>: red-teamed SALAD-Bench on GPT-3.5; CoT raised unsafe outputs from 7% to 16%.</li>
+      <li><span class="r">Winner</span>, New York Academy of Sciences “1000 Girls, 1000 Futures” (top 3 of 1,000); 2× Gold, Commonwealth Essay Competition; U-18 district powerlifting champion.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Publications</h2>
+    <ul>
+      <li>Paper on Donari, a blockchain platform for NGO fund transparency, in <a href="https://www.economicchallenger.net/2025/09/the-october-december-2025-issue.html"><i>Economic Challenger</i></a> (peer-reviewed).</li>
+    </ul>
+  </section>
+</div>
+</body>
+</html>
